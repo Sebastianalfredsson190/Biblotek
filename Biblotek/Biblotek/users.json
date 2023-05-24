@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "borrowing": [ "The Hunger Games" ],
+    "reserved": [ "The Hunger Games", "The Hunger Games" ],
+    "username": "1234567",
+    "password": "12345",
+    "admin": true,
+    "mail": "333",
+    "number": ""
+  },
+  {
+    "id": "2",
+    "borrowing": [],
+    "reserved": [],
+    "username": "sebastian",
+    "password": "cool",
+    "admin": false,
+    "mail": "",
+    "number": ""
+  },
+  {
+    "id": "3",
+    "borrowing": [],
+    "reserved": [],
+    "username": "alfred",
+    "password": "hej",
+    "admin": false,
+    "mail": "",
+    "number": ""
+  },
+  {
+    "id": "4",
+    "borrowing": [],
+    "reserved": [],
+    "admin": false,
+    "username": "adrian",
+    "password": "hej",
+    "number": "07222",
+    "mail": "adriancool@gmail.com"
+  },
+  {
+    "id": "5",
+    "borrowing": [],
+    "reserved": [],
+    "admin": false,
+    "username": "9876",
+    "password": "987",
+    "number": "082222",
+    "mail": "@gmail.com"
+  },
+  {
+    "id": "5",
+    "borrowing": [],
+    "reserved": [],
+    "admin": false,
+    "username": "6789",
+    "password": "789",
+    "number": "777777777",
+    "mail": "7777777"
+  },
+  {
+    "id": "6",
+    "borrowing": [],
+    "reserved": [],
+    "admin": false,
+    "username": "s",
+    "password": "s",
+    "number": "s",
+    "mail": "s"
+  },
+  {
+    "id": "7",
+    "borrowing": [],
+    "reserved": [],
+    "admin": false,
+    "username": "200410030035",
+    "password": "hejhejhej",
+    "number": "08882282",
+    "mail": "223@gmail.com"
+  },
+  {
+    "id": "8",
+    "borrowing": [],
+    "reserved": [],
+    "admin": false,
+    "username": "200410030035",
+    "password": "hejhejhej",
+    "number": "08882282",
+    "mail": "223@gmail.com"
+  },
+  {
+    "id": "9",
+    "borrowing": [],
+    "reserved": [],
+    "admin": false,
+    "username": "200410030035",
+    "password": "hejhejhej",
+    "number": "08882282",
+    "mail": "223@gmail.com"
+  },
+  {
+    "id": "10",
+    "borrowing": [],
+    "reserved": [],
+    "admin": false,
+    "username": "200410030035",
+    "password": "hejhejhej",
+    "number": "08882282",
+    "mail": "223@gmail.com"
+  },
+  {
+    "id": "11",
+    "borrowing": [],
+    "reserved": [],
+    "admin": false,
+    "username": "hej",
+    "password": "hej",
+    "number": "22222",
+    "mail": "hej"
+  }
+]

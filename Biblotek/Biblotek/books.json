@@ -1,0 +1,26 @@
+[
+{
+  "name": "The Hunger Games",
+  "author": "Suzanne Collins",
+  "year": "2008",
+  "isbn": "9789510415665",
+  "number": "1",
+  "stock": 0
+},
+  {
+    "name": "Den ododliga Henrietta Lacks",
+    "author": "Rebecca Skloot",
+    "year": "2010",
+    "isbn": "9780307712509",
+    "number": "2",
+    "stock": 10
+  },
+  {
+    "name": " ",
+    "author": "Peter Carey",
+    "year": "2000",
+    "isbn": "9780375724671",
+    "number": "3",
+    "stock": 8
+  }
+]
