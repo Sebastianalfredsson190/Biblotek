@@ -59,37 +59,106 @@
             this.Profil = new System.Windows.Forms.Panel();
             this.ProfilPassword = new System.Windows.Forms.TextBox();
             this.ProfilUsername = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.applyAdminButton = new System.Windows.Forms.Button();
+            this.changePasswordButton = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.searchbooks = new System.Windows.Forms.Panel();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.findBookButton = new System.Windows.Forms.Button();
+            this.borrowButton = new System.Windows.Forms.Button();
+            this.bookNumberBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.listBox = new System.Windows.Forms.ListBox();
+            this.searchTextBox = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.Mybooks = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.returnReservedButton = new System.Windows.Forms.Button();
+            this.reservedTextBox = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
+            this.borrwingListBox = new System.Windows.Forms.ListBox();
+            this.returnButton = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.returnBox = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.reservedListBox = new System.Windows.Forms.ListBox();
             this.AdminSettings = new System.Windows.Forms.Panel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.showAllUsersButton = new System.Windows.Forms.Button();
+            this.removeUserButton = new System.Windows.Forms.Button();
+            this.addUserButton = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
+            this.showAllUsers = new System.Windows.Forms.Panel();
+            this.allUsersBox = new System.Windows.Forms.ListBox();
+            this.MainPageButton = new System.Windows.Forms.Button();
             this.AdminBookSettings = new System.Windows.Forms.Panel();
             this.button14 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
+            this.changePassword = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.passwordButton = new System.Windows.Forms.Button();
+            this.changePasswordTextBox = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.createBook = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.createBookButton = new System.Windows.Forms.Button();
+            this.stockTextBox = new System.Windows.Forms.TextBox();
+            this.isbnTextBox = new System.Windows.Forms.TextBox();
+            this.yearTextBox = new System.Windows.Forms.TextBox();
+            this.authorTextBox = new System.Windows.Forms.TextBox();
+            this.titleTextBox = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.removeBook = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.booksBox = new System.Windows.Forms.ListBox();
+            this.removeBookButton = new System.Windows.Forms.Button();
+            this.removeBookTextBox = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.editBook = new System.Windows.Forms.Panel();
+            this.button9 = new System.Windows.Forms.Button();
+            this.bookButtonPick = new System.Windows.Forms.Button();
+            this.bookNumberEdit = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.bookBoxList = new System.Windows.Forms.ListBox();
+            this.editBookPicked = new System.Windows.Forms.Panel();
+            this.button8 = new System.Windows.Forms.Button();
+            this.editBookButton = new System.Windows.Forms.Button();
+            this.whatToChangeItTo = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.whatToChange = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.bookEditBox = new System.Windows.Forms.ListBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.createUser = new System.Windows.Forms.Panel();
+            this.createUserButton = new System.Windows.Forms.Button();
+            this.numberText = new System.Windows.Forms.TextBox();
+            this.mailText = new System.Windows.Forms.TextBox();
+            this.passwordText = new System.Windows.Forms.TextBox();
+            this.usernameText = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.RemoveUser = new System.Windows.Forms.Panel();
+            this.removeButton = new System.Windows.Forms.Button();
+            this.removeUserTextBox = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.userListBox = new System.Windows.Forms.ListBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
             this.choice.SuspendLayout();
             this.login.SuspendLayout();
             this.register.SuspendLayout();
@@ -98,7 +167,15 @@
             this.searchbooks.SuspendLayout();
             this.Mybooks.SuspendLayout();
             this.AdminSettings.SuspendLayout();
+            this.showAllUsers.SuspendLayout();
             this.AdminBookSettings.SuspendLayout();
+            this.changePassword.SuspendLayout();
+            this.createBook.SuspendLayout();
+            this.removeBook.SuspendLayout();
+            this.editBook.SuspendLayout();
+            this.editBookPicked.SuspendLayout();
+            this.createUser.SuspendLayout();
+            this.RemoveUser.SuspendLayout();
             this.SuspendLayout();
             // 
             // choice
@@ -308,6 +385,7 @@
             this.mainpage.Name = "mainpage";
             this.mainpage.Size = new System.Drawing.Size(801, 452);
             this.mainpage.TabIndex = 10;
+            this.mainpage.Paint += new System.Windows.Forms.PaintEventHandler(this.mainpage_Paint);
             // 
             // AdminAddButton
             // 
@@ -317,6 +395,7 @@
             this.AdminAddButton.TabIndex = 5;
             this.AdminAddButton.Text = "Redigera böcker";
             this.AdminAddButton.UseVisualStyleBackColor = true;
+            this.AdminAddButton.Click += new System.EventHandler(this.AdminAddButton_Click);
             // 
             // AdminButton
             // 
@@ -326,6 +405,7 @@
             this.AdminButton.TabIndex = 4;
             this.AdminButton.Text = "Biblotikarie inställningar";
             this.AdminButton.UseVisualStyleBackColor = true;
+            this.AdminButton.Click += new System.EventHandler(this.AdminButton_Click);
             // 
             // SearchbookButton
             // 
@@ -335,6 +415,7 @@
             this.SearchbookButton.TabIndex = 3;
             this.SearchbookButton.Text = "Söka böcker";
             this.SearchbookButton.UseVisualStyleBackColor = true;
+            this.SearchbookButton.Click += new System.EventHandler(this.SearchbookButton_Click);
             // 
             // MybooksButton
             // 
@@ -345,6 +426,7 @@
             this.MybooksButton.TabIndex = 2;
             this.MybooksButton.Text = "Böcker du lånar";
             this.MybooksButton.UseVisualStyleBackColor = true;
+            this.MybooksButton.Click += new System.EventHandler(this.MybooksButton_Click);
             // 
             // ProfilButton
             // 
@@ -354,6 +436,7 @@
             this.ProfilButton.TabIndex = 1;
             this.ProfilButton.Text = "Min profil";
             this.ProfilButton.UseVisualStyleBackColor = true;
+            this.ProfilButton.Click += new System.EventHandler(this.ProfilButton_Click);
             // 
             // label10
             // 
@@ -369,8 +452,8 @@
             // 
             this.Profil.Controls.Add(this.ProfilPassword);
             this.Profil.Controls.Add(this.ProfilUsername);
-            this.Profil.Controls.Add(this.button5);
-            this.Profil.Controls.Add(this.button4);
+            this.Profil.Controls.Add(this.applyAdminButton);
+            this.Profil.Controls.Add(this.changePasswordButton);
             this.Profil.Controls.Add(this.button3);
             this.Profil.Controls.Add(this.label13);
             this.Profil.Controls.Add(this.label12);
@@ -394,23 +477,25 @@
             this.ProfilUsername.Size = new System.Drawing.Size(150, 31);
             this.ProfilUsername.TabIndex = 6;
             // 
-            // button5
+            // applyAdminButton
             // 
-            this.button5.Location = new System.Drawing.Point(415, 260);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(270, 35);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Jag vill önsöka om biblotikarie";
-            this.button5.UseVisualStyleBackColor = true;
+            this.applyAdminButton.Location = new System.Drawing.Point(415, 260);
+            this.applyAdminButton.Name = "applyAdminButton";
+            this.applyAdminButton.Size = new System.Drawing.Size(270, 35);
+            this.applyAdminButton.TabIndex = 5;
+            this.applyAdminButton.Text = "Jag vill önsöka om biblotikarie";
+            this.applyAdminButton.UseVisualStyleBackColor = true;
+            this.applyAdminButton.Click += new System.EventHandler(this.ApplyAdmin_Click);
             // 
-            // button4
+            // changePasswordButton
             // 
-            this.button4.Location = new System.Drawing.Point(140, 260);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(160, 34);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Ändra lösenord";
-            this.button4.UseVisualStyleBackColor = true;
+            this.changePasswordButton.Location = new System.Drawing.Point(140, 260);
+            this.changePasswordButton.Name = "changePasswordButton";
+            this.changePasswordButton.Size = new System.Drawing.Size(160, 34);
+            this.changePasswordButton.TabIndex = 4;
+            this.changePasswordButton.Text = "Ändra lösenord";
+            this.changePasswordButton.UseVisualStyleBackColor = true;
+            this.changePasswordButton.Click += new System.EventHandler(this.changePassword_Click);
             // 
             // button3
             // 
@@ -418,8 +503,9 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(112, 34);
             this.button3.TabIndex = 3;
-            this.button3.Text = "Home Page";
+            this.button3.Text = "MainPage";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.MainPageButton_Click);
             // 
             // label13
             // 
@@ -450,19 +536,80 @@
             // 
             // searchbooks
             // 
-            this.searchbooks.Controls.Add(this.textBox9);
+            this.searchbooks.Controls.Add(this.button1);
+            this.searchbooks.Controls.Add(this.findBookButton);
+            this.searchbooks.Controls.Add(this.borrowButton);
+            this.searchbooks.Controls.Add(this.bookNumberBox);
+            this.searchbooks.Controls.Add(this.label4);
+            this.searchbooks.Controls.Add(this.listBox);
+            this.searchbooks.Controls.Add(this.searchTextBox);
             this.searchbooks.Controls.Add(this.label14);
             this.searchbooks.Location = new System.Drawing.Point(0, 0);
             this.searchbooks.Name = "searchbooks";
             this.searchbooks.Size = new System.Drawing.Size(801, 452);
             this.searchbooks.TabIndex = 8;
             // 
-            // textBox9
+            // button1
             // 
-            this.textBox9.Location = new System.Drawing.Point(140, 87);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(496, 31);
-            this.textBox9.TabIndex = 1;
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(112, 34);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "MainPage";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.MainPageButton_Click);
+            // 
+            // findBookButton
+            // 
+            this.findBookButton.Location = new System.Drawing.Point(642, 86);
+            this.findBookButton.Name = "findBookButton";
+            this.findBookButton.Size = new System.Drawing.Size(112, 34);
+            this.findBookButton.TabIndex = 6;
+            this.findBookButton.Text = "Search";
+            this.findBookButton.UseVisualStyleBackColor = true;
+            this.findBookButton.Click += new System.EventHandler(this.findBookButton_Click);
+            // 
+            // borrowButton
+            // 
+            this.borrowButton.Location = new System.Drawing.Point(616, 380);
+            this.borrowButton.Name = "borrowButton";
+            this.borrowButton.Size = new System.Drawing.Size(112, 34);
+            this.borrowButton.TabIndex = 5;
+            this.borrowButton.Text = "Låna";
+            this.borrowButton.UseVisualStyleBackColor = true;
+            this.borrowButton.Click += new System.EventHandler(this.borrowButton_Click);
+            // 
+            // bookNumberBox
+            // 
+            this.bookNumberBox.Location = new System.Drawing.Point(460, 380);
+            this.bookNumberBox.Name = "bookNumberBox";
+            this.bookNumberBox.Size = new System.Drawing.Size(150, 31);
+            this.bookNumberBox.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(33, 385);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(413, 25);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Skriv in numret på boken du vill låna eller reservera";
+            // 
+            // listBox
+            // 
+            this.listBox.FormattingEnabled = true;
+            this.listBox.ItemHeight = 25;
+            this.listBox.Location = new System.Drawing.Point(29, 133);
+            this.listBox.Name = "listBox";
+            this.listBox.Size = new System.Drawing.Size(734, 204);
+            this.listBox.TabIndex = 2;
+            // 
+            // searchTextBox
+            // 
+            this.searchTextBox.Location = new System.Drawing.Point(140, 87);
+            this.searchTextBox.Name = "searchTextBox";
+            this.searchTextBox.Size = new System.Drawing.Size(496, 31);
+            this.searchTextBox.TabIndex = 1;
             // 
             // label14
             // 
@@ -475,19 +622,66 @@
             // 
             // Mybooks
             // 
-            this.Mybooks.Controls.Add(this.button6);
-            this.Mybooks.Controls.Add(this.textBox10);
-            this.Mybooks.Controls.Add(this.label21);
-            this.Mybooks.Controls.Add(this.label20);
-            this.Mybooks.Controls.Add(this.label19);
-            this.Mybooks.Controls.Add(this.label18);
+            this.Mybooks.Controls.Add(this.returnReservedButton);
+            this.Mybooks.Controls.Add(this.reservedTextBox);
             this.Mybooks.Controls.Add(this.label17);
+            this.Mybooks.Controls.Add(this.borrwingListBox);
+            this.Mybooks.Controls.Add(this.returnButton);
+            this.Mybooks.Controls.Add(this.button6);
+            this.Mybooks.Controls.Add(this.returnBox);
+            this.Mybooks.Controls.Add(this.label21);
             this.Mybooks.Controls.Add(this.label16);
             this.Mybooks.Controls.Add(this.label15);
+            this.Mybooks.Controls.Add(this.reservedListBox);
             this.Mybooks.Location = new System.Drawing.Point(0, 0);
             this.Mybooks.Name = "Mybooks";
             this.Mybooks.Size = new System.Drawing.Size(801, 449);
             this.Mybooks.TabIndex = 3;
+            // 
+            // returnReservedButton
+            // 
+            this.returnReservedButton.Location = new System.Drawing.Point(621, 382);
+            this.returnReservedButton.Name = "returnReservedButton";
+            this.returnReservedButton.Size = new System.Drawing.Size(112, 34);
+            this.returnReservedButton.TabIndex = 14;
+            this.returnReservedButton.Text = "Lämna tillbaka";
+            this.returnReservedButton.UseVisualStyleBackColor = true;
+            this.returnReservedButton.Click += new System.EventHandler(this.returnReservedButton_Click);
+            // 
+            // reservedTextBox
+            // 
+            this.reservedTextBox.Location = new System.Drawing.Point(431, 385);
+            this.reservedTextBox.Name = "reservedTextBox";
+            this.reservedTextBox.Size = new System.Drawing.Size(184, 31);
+            this.reservedTextBox.TabIndex = 13;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(27, 388);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(391, 25);
+            this.label17.TabIndex = 12;
+            this.label17.Text = "Skriv in boken du reservar och vill lämna tillbaka";
+            // 
+            // borrwingListBox
+            // 
+            this.borrwingListBox.FormattingEnabled = true;
+            this.borrwingListBox.ItemHeight = 25;
+            this.borrwingListBox.Location = new System.Drawing.Point(23, 78);
+            this.borrwingListBox.Name = "borrwingListBox";
+            this.borrwingListBox.Size = new System.Drawing.Size(264, 229);
+            this.borrwingListBox.TabIndex = 10;
+            // 
+            // returnButton
+            // 
+            this.returnButton.Location = new System.Drawing.Point(639, 331);
+            this.returnButton.Name = "returnButton";
+            this.returnButton.Size = new System.Drawing.Size(112, 34);
+            this.returnButton.TabIndex = 9;
+            this.returnButton.Text = "Lämna tillbaka";
+            this.returnButton.UseVisualStyleBackColor = true;
+            this.returnButton.Click += new System.EventHandler(this.returnButton_Click);
             // 
             // button6
             // 
@@ -497,58 +691,23 @@
             this.button6.TabIndex = 8;
             this.button6.Text = "Main page";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.MainPageButton_Click);
             // 
-            // textBox10
+            // returnBox
             // 
-            this.textBox10.Location = new System.Drawing.Point(388, 353);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(184, 31);
-            this.textBox10.TabIndex = 7;
+            this.returnBox.Location = new System.Drawing.Point(440, 334);
+            this.returnBox.Name = "returnBox";
+            this.returnBox.Size = new System.Drawing.Size(184, 31);
+            this.returnBox.TabIndex = 7;
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(24, 351);
+            this.label21.Location = new System.Drawing.Point(24, 340);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(358, 25);
+            this.label21.Size = new System.Drawing.Size(407, 25);
             this.label21.TabIndex = 6;
-            this.label21.Text = "Skriv numret på boken du vill lämna tillbaka";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(366, 129);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(68, 25);
-            this.label20.TabIndex = 5;
-            this.label20.Text = "(1) bok";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(366, 89);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(68, 25);
-            this.label19.TabIndex = 4;
-            this.label19.Text = "(1) bok";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(24, 129);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(68, 25);
-            this.label18.TabIndex = 3;
-            this.label18.Text = "(1) bok";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(24, 86);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(68, 25);
-            this.label17.TabIndex = 2;
-            this.label17.Text = "(1) bok";
+            this.label21.Text = "Skriv in boken som du lånar och vill lämna tillbaka";
             // 
             // label16
             // 
@@ -568,11 +727,21 @@
             this.label15.TabIndex = 0;
             this.label15.Text = "Böcker du lånar just nu:";
             // 
+            // reservedListBox
+            // 
+            this.reservedListBox.FormattingEnabled = true;
+            this.reservedListBox.ItemHeight = 25;
+            this.reservedListBox.Location = new System.Drawing.Point(366, 80);
+            this.reservedListBox.Name = "reservedListBox";
+            this.reservedListBox.Size = new System.Drawing.Size(268, 229);
+            this.reservedListBox.TabIndex = 11;
+            // 
             // AdminSettings
             // 
-            this.AdminSettings.Controls.Add(this.button10);
-            this.AdminSettings.Controls.Add(this.button9);
-            this.AdminSettings.Controls.Add(this.button8);
+            this.AdminSettings.Controls.Add(this.panel1);
+            this.AdminSettings.Controls.Add(this.showAllUsersButton);
+            this.AdminSettings.Controls.Add(this.removeUserButton);
+            this.AdminSettings.Controls.Add(this.addUserButton);
             this.AdminSettings.Controls.Add(this.button7);
             this.AdminSettings.Controls.Add(this.label22);
             this.AdminSettings.Location = new System.Drawing.Point(0, 0);
@@ -580,32 +749,42 @@
             this.AdminSettings.Size = new System.Drawing.Size(801, 449);
             this.AdminSettings.TabIndex = 9;
             // 
-            // button10
+            // panel1
             // 
-            this.button10.Location = new System.Drawing.Point(590, 207);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(161, 34);
-            this.button10.TabIndex = 4;
-            this.button10.Text = "Lista användare";
-            this.button10.UseVisualStyleBackColor = true;
+            this.panel1.Location = new System.Drawing.Point(779, 418);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(300, 150);
+            this.panel1.TabIndex = 5;
             // 
-            // button9
+            // showAllUsersButton
             // 
-            this.button9.Location = new System.Drawing.Point(274, 208);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(291, 34);
-            this.button9.TabIndex = 3;
-            this.button9.Text = "Redigera användare eller ta bort";
-            this.button9.UseVisualStyleBackColor = true;
+            this.showAllUsersButton.Location = new System.Drawing.Point(590, 207);
+            this.showAllUsersButton.Name = "showAllUsersButton";
+            this.showAllUsersButton.Size = new System.Drawing.Size(161, 34);
+            this.showAllUsersButton.TabIndex = 4;
+            this.showAllUsersButton.Text = "Lista användare";
+            this.showAllUsersButton.UseVisualStyleBackColor = true;
+            this.showAllUsersButton.Click += new System.EventHandler(this.showAllUsersButton_Click);
             // 
-            // button8
+            // removeUserButton
             // 
-            this.button8.Location = new System.Drawing.Point(41, 207);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(201, 34);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "Lägga till användare";
-            this.button8.UseVisualStyleBackColor = true;
+            this.removeUserButton.Location = new System.Drawing.Point(274, 208);
+            this.removeUserButton.Name = "removeUserButton";
+            this.removeUserButton.Size = new System.Drawing.Size(291, 34);
+            this.removeUserButton.TabIndex = 3;
+            this.removeUserButton.Text = "Ta bort en användare";
+            this.removeUserButton.UseVisualStyleBackColor = true;
+            this.removeUserButton.Click += new System.EventHandler(this.removeUserButton_Click);
+            // 
+            // addUserButton
+            // 
+            this.addUserButton.Location = new System.Drawing.Point(41, 207);
+            this.addUserButton.Name = "addUserButton";
+            this.addUserButton.Size = new System.Drawing.Size(201, 34);
+            this.addUserButton.TabIndex = 2;
+            this.addUserButton.Text = "Lägga till användare";
+            this.addUserButton.UseVisualStyleBackColor = true;
+            this.addUserButton.Click += new System.EventHandler(this.addUserButton_Click);
             // 
             // button7
             // 
@@ -613,8 +792,9 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(112, 34);
             this.button7.TabIndex = 1;
-            this.button7.Text = "button7";
+            this.button7.Text = "MainPage";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.MainPageButton_Click);
             // 
             // label22
             // 
@@ -624,6 +804,34 @@
             this.label22.Size = new System.Drawing.Size(168, 25);
             this.label22.TabIndex = 0;
             this.label22.Text = "Du har tre alternativ";
+            // 
+            // showAllUsers
+            // 
+            this.showAllUsers.Controls.Add(this.allUsersBox);
+            this.showAllUsers.Controls.Add(this.MainPageButton);
+            this.showAllUsers.Location = new System.Drawing.Point(0, 0);
+            this.showAllUsers.Name = "showAllUsers";
+            this.showAllUsers.Size = new System.Drawing.Size(801, 449);
+            this.showAllUsers.TabIndex = 5;
+            // 
+            // allUsersBox
+            // 
+            this.allUsersBox.FormattingEnabled = true;
+            this.allUsersBox.ItemHeight = 25;
+            this.allUsersBox.Location = new System.Drawing.Point(23, 49);
+            this.allUsersBox.Name = "allUsersBox";
+            this.allUsersBox.Size = new System.Drawing.Size(765, 354);
+            this.allUsersBox.TabIndex = 1;
+            // 
+            // MainPageButton
+            // 
+            this.MainPageButton.Location = new System.Drawing.Point(0, 0);
+            this.MainPageButton.Name = "MainPageButton";
+            this.MainPageButton.Size = new System.Drawing.Size(112, 34);
+            this.MainPageButton.TabIndex = 0;
+            this.MainPageButton.Text = "MainPage";
+            this.MainPageButton.UseVisualStyleBackColor = true;
+            this.MainPageButton.Click += new System.EventHandler(this.MainPageButton_Click);
             // 
             // AdminBookSettings
             // 
@@ -645,6 +853,7 @@
             this.button14.TabIndex = 4;
             this.button14.Text = "Redigera en bok";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.editBookRoute_Click);
             // 
             // button13
             // 
@@ -654,6 +863,7 @@
             this.button13.TabIndex = 3;
             this.button13.Text = "Ta bort en bok";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.removeButton_Click);
             // 
             // button12
             // 
@@ -663,6 +873,7 @@
             this.button12.TabIndex = 2;
             this.button12.Text = "Lägga till en bok";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button11
             // 
@@ -682,20 +893,553 @@
             this.label23.TabIndex = 0;
             this.label23.Text = "Du har tre alternativ";
             // 
+            // changePassword
+            // 
+            this.changePassword.Controls.Add(this.button10);
+            this.changePassword.Controls.Add(this.button2);
+            this.changePassword.Controls.Add(this.passwordButton);
+            this.changePassword.Controls.Add(this.changePasswordTextBox);
+            this.changePassword.Controls.Add(this.label18);
+            this.changePassword.Location = new System.Drawing.Point(0, 0);
+            this.changePassword.Name = "changePassword";
+            this.changePassword.Size = new System.Drawing.Size(801, 452);
+            this.changePassword.TabIndex = 5;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(0, -3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(112, 34);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "MainPage";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.MainPageButton_Click);
+            // 
+            // passwordButton
+            // 
+            this.passwordButton.Location = new System.Drawing.Point(686, 195);
+            this.passwordButton.Name = "passwordButton";
+            this.passwordButton.Size = new System.Drawing.Size(112, 34);
+            this.passwordButton.TabIndex = 2;
+            this.passwordButton.Text = "Byt";
+            this.passwordButton.UseVisualStyleBackColor = true;
+            this.passwordButton.Click += new System.EventHandler(this.changePassword_Click_1);
+            // 
+            // changePasswordTextBox
+            // 
+            this.changePasswordTextBox.Location = new System.Drawing.Point(328, 197);
+            this.changePasswordTextBox.Name = "changePasswordTextBox";
+            this.changePasswordTextBox.Size = new System.Drawing.Size(357, 31);
+            this.changePasswordTextBox.TabIndex = 1;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(12, 197);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(310, 25);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "Skriv vad du vill byta ditt lösenord till:";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
+            // 
+            // createBook
+            // 
+            this.createBook.Controls.Add(this.button4);
+            this.createBook.Controls.Add(this.createBookButton);
+            this.createBook.Controls.Add(this.stockTextBox);
+            this.createBook.Controls.Add(this.isbnTextBox);
+            this.createBook.Controls.Add(this.yearTextBox);
+            this.createBook.Controls.Add(this.authorTextBox);
+            this.createBook.Controls.Add(this.titleTextBox);
+            this.createBook.Controls.Add(this.label26);
+            this.createBook.Controls.Add(this.label25);
+            this.createBook.Controls.Add(this.label24);
+            this.createBook.Controls.Add(this.label20);
+            this.createBook.Controls.Add(this.label19);
+            this.createBook.Location = new System.Drawing.Point(0, 0);
+            this.createBook.Name = "createBook";
+            this.createBook.Size = new System.Drawing.Size(801, 452);
+            this.createBook.TabIndex = 5;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(0, 0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(112, 34);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "MainPage";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.MainPageButton_Click);
+            // 
+            // createBookButton
+            // 
+            this.createBookButton.Location = new System.Drawing.Point(23, 340);
+            this.createBookButton.Name = "createBookButton";
+            this.createBookButton.Size = new System.Drawing.Size(765, 34);
+            this.createBookButton.TabIndex = 10;
+            this.createBookButton.Text = "Skapa book";
+            this.createBookButton.UseVisualStyleBackColor = true;
+            this.createBookButton.Click += new System.EventHandler(this.createBookButton_Click);
+            // 
+            // stockTextBox
+            // 
+            this.stockTextBox.Location = new System.Drawing.Point(346, 262);
+            this.stockTextBox.Name = "stockTextBox";
+            this.stockTextBox.Size = new System.Drawing.Size(150, 31);
+            this.stockTextBox.TabIndex = 9;
+            // 
+            // isbnTextBox
+            // 
+            this.isbnTextBox.Location = new System.Drawing.Point(121, 204);
+            this.isbnTextBox.Name = "isbnTextBox";
+            this.isbnTextBox.Size = new System.Drawing.Size(150, 31);
+            this.isbnTextBox.TabIndex = 8;
+            // 
+            // yearTextBox
+            // 
+            this.yearTextBox.Location = new System.Drawing.Point(229, 158);
+            this.yearTextBox.Name = "yearTextBox";
+            this.yearTextBox.Size = new System.Drawing.Size(150, 31);
+            this.yearTextBox.TabIndex = 7;
+            // 
+            // authorTextBox
+            // 
+            this.authorTextBox.Location = new System.Drawing.Point(140, 114);
+            this.authorTextBox.Name = "authorTextBox";
+            this.authorTextBox.Size = new System.Drawing.Size(150, 31);
+            this.authorTextBox.TabIndex = 6;
+            // 
+            // titleTextBox
+            // 
+            this.titleTextBox.Location = new System.Drawing.Point(118, 53);
+            this.titleTextBox.Name = "titleTextBox";
+            this.titleTextBox.Size = new System.Drawing.Size(150, 31);
+            this.titleTextBox.TabIndex = 5;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(23, 260);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(317, 25);
+            this.label26.TabIndex = 4;
+            this.label26.Text = "Skriv hur mycket lager vi har av boken:";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(23, 204);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(92, 25);
+            this.label25.TabIndex = 3;
+            this.label25.Text = "Skriv isbn:";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(23, 158);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(200, 25);
+            this.label24.TabIndex = 2;
+            this.label24.Text = "Skriv år boken släpptes:";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(23, 111);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(118, 25);
+            this.label20.TabIndex = 1;
+            this.label20.Text = "Skriv föfattre:";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(24, 53);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(88, 25);
+            this.label19.TabIndex = 0;
+            this.label19.Text = "Skriv title:";
+            // 
+            // removeBook
+            // 
+            this.removeBook.Controls.Add(this.button5);
+            this.removeBook.Controls.Add(this.booksBox);
+            this.removeBook.Controls.Add(this.removeBookButton);
+            this.removeBook.Controls.Add(this.removeBookTextBox);
+            this.removeBook.Controls.Add(this.label27);
+            this.removeBook.Location = new System.Drawing.Point(0, 0);
+            this.removeBook.Name = "removeBook";
+            this.removeBook.Size = new System.Drawing.Size(798, 446);
+            this.removeBook.TabIndex = 5;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(0, -3);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(112, 34);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "MainPage";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.MainPageButton_Click);
+            // 
+            // booksBox
+            // 
+            this.booksBox.FormattingEnabled = true;
+            this.booksBox.ItemHeight = 25;
+            this.booksBox.Location = new System.Drawing.Point(61, 37);
+            this.booksBox.Name = "booksBox";
+            this.booksBox.Size = new System.Drawing.Size(677, 304);
+            this.booksBox.TabIndex = 3;
+            // 
+            // removeBookButton
+            // 
+            this.removeBookButton.Location = new System.Drawing.Point(570, 360);
+            this.removeBookButton.Name = "removeBookButton";
+            this.removeBookButton.Size = new System.Drawing.Size(178, 34);
+            this.removeBookButton.TabIndex = 2;
+            this.removeBookButton.Text = "Ta bort book";
+            this.removeBookButton.UseVisualStyleBackColor = true;
+            this.removeBookButton.Click += new System.EventHandler(this.removeBookButton_Click);
+            // 
+            // removeBookTextBox
+            // 
+            this.removeBookTextBox.Location = new System.Drawing.Point(409, 362);
+            this.removeBookTextBox.Name = "removeBookTextBox";
+            this.removeBookTextBox.Size = new System.Drawing.Size(150, 31);
+            this.removeBookTextBox.TabIndex = 1;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(75, 362);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(328, 25);
+            this.label27.TabIndex = 0;
+            this.label27.Text = "Skriv boken nummer som du vill ta bort";
+            this.label27.Click += new System.EventHandler(this.label27_Click);
+            // 
+            // editBook
+            // 
+            this.editBook.Controls.Add(this.button9);
+            this.editBook.Controls.Add(this.bookButtonPick);
+            this.editBook.Controls.Add(this.bookNumberEdit);
+            this.editBook.Controls.Add(this.label28);
+            this.editBook.Controls.Add(this.bookBoxList);
+            this.editBook.Location = new System.Drawing.Point(0, 0);
+            this.editBook.Name = "editBook";
+            this.editBook.Size = new System.Drawing.Size(801, 452);
+            this.editBook.TabIndex = 5;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(0, -3);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(112, 34);
+            this.button9.TabIndex = 4;
+            this.button9.Text = "MainPage";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.MainPageButton_Click);
+            // 
+            // bookButtonPick
+            // 
+            this.bookButtonPick.Location = new System.Drawing.Point(536, 331);
+            this.bookButtonPick.Name = "bookButtonPick";
+            this.bookButtonPick.Size = new System.Drawing.Size(112, 34);
+            this.bookButtonPick.TabIndex = 3;
+            this.bookButtonPick.Text = "Välj";
+            this.bookButtonPick.UseVisualStyleBackColor = true;
+            this.bookButtonPick.Click += new System.EventHandler(this.bookButtonPick_Click);
+            // 
+            // bookNumberEdit
+            // 
+            this.bookNumberEdit.Location = new System.Drawing.Point(371, 333);
+            this.bookNumberEdit.Name = "bookNumberEdit";
+            this.bookNumberEdit.Size = new System.Drawing.Size(150, 31);
+            this.bookNumberEdit.TabIndex = 2;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(12, 336);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(361, 25);
+            this.label28.TabIndex = 1;
+            this.label28.Text = "Skriv boknumret på den bok du vill redigera";
+            // 
+            // bookBoxList
+            // 
+            this.bookBoxList.FormattingEnabled = true;
+            this.bookBoxList.ItemHeight = 25;
+            this.bookBoxList.Location = new System.Drawing.Point(12, 40);
+            this.bookBoxList.Name = "bookBoxList";
+            this.bookBoxList.Size = new System.Drawing.Size(776, 279);
+            this.bookBoxList.TabIndex = 0;
+            // 
+            // editBookPicked
+            // 
+            this.editBookPicked.Controls.Add(this.button8);
+            this.editBookPicked.Controls.Add(this.editBookButton);
+            this.editBookPicked.Controls.Add(this.whatToChangeItTo);
+            this.editBookPicked.Controls.Add(this.label30);
+            this.editBookPicked.Controls.Add(this.whatToChange);
+            this.editBookPicked.Controls.Add(this.label29);
+            this.editBookPicked.Controls.Add(this.bookEditBox);
+            this.editBookPicked.Location = new System.Drawing.Point(0, 0);
+            this.editBookPicked.Name = "editBookPicked";
+            this.editBookPicked.Size = new System.Drawing.Size(801, 449);
+            this.editBookPicked.TabIndex = 4;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(0, -3);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(112, 34);
+            this.button8.TabIndex = 6;
+            this.button8.Text = "MainPage";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.MainPageButton_Click);
+            // 
+            // editBookButton
+            // 
+            this.editBookButton.Location = new System.Drawing.Point(16, 385);
+            this.editBookButton.Name = "editBookButton";
+            this.editBookButton.Size = new System.Drawing.Size(747, 34);
+            this.editBookButton.TabIndex = 5;
+            this.editBookButton.Text = "Redigera";
+            this.editBookButton.UseVisualStyleBackColor = true;
+            this.editBookButton.Click += new System.EventHandler(this.editBookButton_Click);
+            // 
+            // whatToChangeItTo
+            // 
+            this.whatToChangeItTo.Location = new System.Drawing.Point(218, 340);
+            this.whatToChangeItTo.Name = "whatToChangeItTo";
+            this.whatToChangeItTo.Size = new System.Drawing.Size(133, 31);
+            this.whatToChangeItTo.TabIndex = 4;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(21, 344);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(199, 25);
+            this.label30.TabIndex = 3;
+            this.label30.Text = "Skriv vad du vill det till: ";
+            // 
+            // whatToChange
+            // 
+            this.whatToChange.Location = new System.Drawing.Point(293, 303);
+            this.whatToChange.Name = "whatToChange";
+            this.whatToChange.Size = new System.Drawing.Size(133, 31);
+            this.whatToChange.TabIndex = 2;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(16, 306);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(274, 25);
+            this.label29.TabIndex = 1;
+            this.label29.Text = "Skriv vad du vill ändra. Nummer: ";
+            // 
+            // bookEditBox
+            // 
+            this.bookEditBox.FormattingEnabled = true;
+            this.bookEditBox.ItemHeight = 25;
+            this.bookEditBox.Location = new System.Drawing.Point(23, 40);
+            this.bookEditBox.Name = "bookEditBox";
+            this.bookEditBox.Size = new System.Drawing.Size(740, 229);
+            this.bookEditBox.TabIndex = 0;
+            // 
+            // createUser
+            // 
+            this.createUser.Controls.Add(this.button15);
+            this.createUser.Controls.Add(this.createUserButton);
+            this.createUser.Controls.Add(this.numberText);
+            this.createUser.Controls.Add(this.mailText);
+            this.createUser.Controls.Add(this.passwordText);
+            this.createUser.Controls.Add(this.usernameText);
+            this.createUser.Controls.Add(this.label34);
+            this.createUser.Controls.Add(this.label33);
+            this.createUser.Controls.Add(this.label32);
+            this.createUser.Controls.Add(this.label31);
+            this.createUser.Location = new System.Drawing.Point(0, 0);
+            this.createUser.Name = "createUser";
+            this.createUser.Size = new System.Drawing.Size(798, 452);
+            this.createUser.TabIndex = 12;
+            // 
+            // createUserButton
+            // 
+            this.createUserButton.Location = new System.Drawing.Point(16, 183);
+            this.createUserButton.Name = "createUserButton";
+            this.createUserButton.Size = new System.Drawing.Size(406, 34);
+            this.createUserButton.TabIndex = 9;
+            this.createUserButton.Text = "Skapa användare";
+            this.createUserButton.UseVisualStyleBackColor = true;
+            this.createUserButton.Click += new System.EventHandler(this.createUserButton_Click);
+            // 
+            // numberText
+            // 
+            this.numberText.Location = new System.Drawing.Point(94, 136);
+            this.numberText.Name = "numberText";
+            this.numberText.Size = new System.Drawing.Size(297, 31);
+            this.numberText.TabIndex = 8;
+            // 
+            // mailText
+            // 
+            this.mailText.Location = new System.Drawing.Point(67, 102);
+            this.mailText.Name = "mailText";
+            this.mailText.Size = new System.Drawing.Size(297, 31);
+            this.mailText.TabIndex = 7;
+            // 
+            // passwordText
+            // 
+            this.passwordText.Location = new System.Drawing.Point(106, 65);
+            this.passwordText.Name = "passwordText";
+            this.passwordText.Size = new System.Drawing.Size(297, 31);
+            this.passwordText.TabIndex = 6;
+            // 
+            // usernameText
+            // 
+            this.usernameText.Location = new System.Drawing.Point(82, 28);
+            this.usernameText.Name = "usernameText";
+            this.usernameText.Size = new System.Drawing.Size(297, 31);
+            this.usernameText.TabIndex = 5;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(12, 136);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(81, 25);
+            this.label34.TabIndex = 3;
+            this.label34.Text = "Number:";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(12, 102);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(49, 25);
+            this.label33.TabIndex = 2;
+            this.label33.Text = "Mail:";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(12, 65);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(90, 25);
+            this.label32.TabIndex = 1;
+            this.label32.Text = "Lösenord:";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(12, 28);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(64, 25);
+            this.label31.TabIndex = 0;
+            this.label31.Text = "Namn:";
+            // 
+            // RemoveUser
+            // 
+            this.RemoveUser.Controls.Add(this.button16);
+            this.RemoveUser.Controls.Add(this.removeButton);
+            this.RemoveUser.Controls.Add(this.removeUserTextBox);
+            this.RemoveUser.Controls.Add(this.label35);
+            this.RemoveUser.Controls.Add(this.userListBox);
+            this.RemoveUser.Location = new System.Drawing.Point(0, 0);
+            this.RemoveUser.Name = "RemoveUser";
+            this.RemoveUser.Size = new System.Drawing.Size(801, 455);
+            this.RemoveUser.TabIndex = 6;
+            // 
+            // removeButton
+            // 
+            this.removeButton.Location = new System.Drawing.Point(573, 358);
+            this.removeButton.Name = "removeButton";
+            this.removeButton.Size = new System.Drawing.Size(175, 34);
+            this.removeButton.TabIndex = 3;
+            this.removeButton.Text = "Ta bort användare";
+            this.removeButton.UseVisualStyleBackColor = true;
+            this.removeButton.Click += new System.EventHandler(this.removeButton_Click_1);
+            // 
+            // removeUserTextBox
+            // 
+            this.removeUserTextBox.Location = new System.Drawing.Point(354, 362);
+            this.removeUserTextBox.Name = "removeUserTextBox";
+            this.removeUserTextBox.Size = new System.Drawing.Size(205, 31);
+            this.removeUserTextBox.TabIndex = 2;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(46, 363);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(312, 25);
+            this.label35.TabIndex = 1;
+            this.label35.Text = "Skriv idet på användare du vill ta bort:";
+            // 
+            // userListBox
+            // 
+            this.userListBox.FormattingEnabled = true;
+            this.userListBox.ItemHeight = 25;
+            this.userListBox.Location = new System.Drawing.Point(41, 28);
+            this.userListBox.Name = "userListBox";
+            this.userListBox.Size = new System.Drawing.Size(722, 304);
+            this.userListBox.TabIndex = 0;
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(344, 209);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(112, 34);
+            this.button10.TabIndex = 9;
+            this.button10.Text = "Main page";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(561, 131);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(112, 34);
+            this.button15.TabIndex = 10;
+            this.button15.Text = "MainPage";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.MainPageButton_Click);
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(0, -3);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(112, 34);
+            this.button16.TabIndex = 4;
+            this.button16.Text = "MainPage";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.MainPageButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.choice);
+            this.Controls.Add(this.changePassword);
+            this.Controls.Add(this.createUser);
+            this.Controls.Add(this.createBook);
+            this.Controls.Add(this.removeBook);
+            this.Controls.Add(this.editBookPicked);
+            this.Controls.Add(this.editBook);
+            this.Controls.Add(this.AdminBookSettings);
+            this.Controls.Add(this.showAllUsers);
+            this.Controls.Add(this.RemoveUser);
+            this.Controls.Add(this.AdminSettings);
+            this.Controls.Add(this.Mybooks);
+            this.Controls.Add(this.searchbooks);
             this.Controls.Add(this.Profil);
             this.Controls.Add(this.mainpage);
             this.Controls.Add(this.register);
             this.Controls.Add(this.login);
-            this.Controls.Add(this.choice);
-            this.Controls.Add(this.AdminBookSettings);
-            this.Controls.Add(this.AdminSettings);
-            this.Controls.Add(this.Mybooks);
-            this.Controls.Add(this.searchbooks);
             this.Name = "Form1";
             this.Text = "Form1";
             this.choice.ResumeLayout(false);
@@ -713,8 +1457,23 @@
             this.Mybooks.PerformLayout();
             this.AdminSettings.ResumeLayout(false);
             this.AdminSettings.PerformLayout();
+            this.showAllUsers.ResumeLayout(false);
             this.AdminBookSettings.ResumeLayout(false);
             this.AdminBookSettings.PerformLayout();
+            this.changePassword.ResumeLayout(false);
+            this.changePassword.PerformLayout();
+            this.createBook.ResumeLayout(false);
+            this.createBook.PerformLayout();
+            this.removeBook.ResumeLayout(false);
+            this.removeBook.PerformLayout();
+            this.editBook.ResumeLayout(false);
+            this.editBook.PerformLayout();
+            this.editBookPicked.ResumeLayout(false);
+            this.editBookPicked.PerformLayout();
+            this.createUser.ResumeLayout(false);
+            this.createUser.PerformLayout();
+            this.RemoveUser.ResumeLayout(false);
+            this.RemoveUser.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -752,29 +1511,25 @@
         private Panel Profil;
         private TextBox ProfilPassword;
         private TextBox ProfilUsername;
-        private Button button5;
-        private Button button4;
+        private Button applyAdminButton;
+        private Button changePasswordButton;
         private Button button3;
         private Label label13;
         private Label label12;
         private Label label11;
         private Panel searchbooks;
-        private TextBox textBox9;
+        private TextBox searchTextBox;
         private Label label14;
         private Panel Mybooks;
         private Button button6;
-        private TextBox textBox10;
+        private TextBox returnBox;
         private Label label21;
-        private Label label20;
-        private Label label19;
-        private Label label18;
-        private Label label17;
         private Label label16;
         private Label label15;
         private Panel AdminSettings;
-        private Button button10;
-        private Button button9;
-        private Button button8;
+        private Button showAllUsersButton;
+        private Button removeUserButton;
+        private Button addUserButton;
         private Button button7;
         private Label label22;
         private Panel AdminBookSettings;
@@ -783,5 +1538,78 @@
         private Button button12;
         private Button button11;
         private Label label23;
+        private Button findBookButton;
+        private Button borrowButton;
+        private TextBox bookNumberBox;
+        private Label label4;
+        private ListBox listBox;
+        private Button returnButton;
+        private ListBox reservedListBox;
+        private ListBox borrwingListBox;
+        private Button returnReservedButton;
+        private TextBox reservedTextBox;
+        private Label label17;
+        private Panel changePassword;
+        private Label label18;
+        private Button passwordButton;
+        private TextBox changePasswordTextBox;
+        private Panel createBook;
+        private Button createBookButton;
+        private TextBox stockTextBox;
+        private TextBox isbnTextBox;
+        private TextBox yearTextBox;
+        private TextBox authorTextBox;
+        private TextBox titleTextBox;
+        private Label label26;
+        private Label label25;
+        private Label label24;
+        private Label label20;
+        private Label label19;
+        private Panel removeBook;
+        private Label label27;
+        private ListBox booksBox;
+        private Button removeBookButton;
+        private TextBox removeBookTextBox;
+        private Panel editBook;
+        private ListBox bookBoxList;
+        private Button bookButtonPick;
+        private TextBox bookNumberEdit;
+        private Label label28;
+        private Panel editBookPicked;
+        private Button editBookButton;
+        private TextBox whatToChangeItTo;
+        private Label label30;
+        private TextBox whatToChange;
+        private Label label29;
+        private ListBox bookEditBox;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Panel showAllUsers;
+        private Button MainPageButton;
+        private Button button1;
+        private ListBox allUsersBox;
+        private Button button2;
+        private Button button4;
+        private Button button5;
+        private Button button9;
+        private Button button8;
+        private Panel createUser;
+        private Label label34;
+        private Label label33;
+        private Label label32;
+        private Label label31;
+        private TextBox usernameText;
+        private Button createUserButton;
+        private TextBox numberText;
+        private TextBox mailText;
+        private TextBox passwordText;
+        private Panel RemoveUser;
+        private Button removeButton;
+        private TextBox removeUserTextBox;
+        private Label label35;
+        private ListBox userListBox;
+        private Panel panel1;
+        private Button button10;
+        private Button button15;
+        private Button button16;
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sebastian.alfredsso\\source\\repos\\Biblotek\\Biblotek\\Biblotek.csproj": {}
+    "C:\\Users\\sebastian.alfredsso\\source\\repos\\Biblotek\\Biblotek\\Biblotek\\Biblotek.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sebastian.alfredsso\\source\\repos\\Biblotek\\Biblotek\\Biblotek.csproj": {
+    "C:\\Users\\sebastian.alfredsso\\source\\repos\\Biblotek\\Biblotek\\Biblotek\\Biblotek.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sebastian.alfredsso\\source\\repos\\Biblotek\\Biblotek\\Biblotek.csproj",
+        "projectUniqueName": "C:\\Users\\sebastian.alfredsso\\source\\repos\\Biblotek\\Biblotek\\Biblotek\\Biblotek.csproj",
         "projectName": "Biblotek",
-        "projectPath": "C:\\Users\\sebastian.alfredsso\\source\\repos\\Biblotek\\Biblotek\\Biblotek.csproj",
+        "projectPath": "C:\\Users\\sebastian.alfredsso\\source\\repos\\Biblotek\\Biblotek\\Biblotek\\Biblotek.csproj",
         "packagesPath": "C:\\Users\\sebastian.alfredsso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sebastian.alfredsso\\source\\repos\\Biblotek\\Biblotek\\obj\\",
+        "outputPath": "C:\\Users\\sebastian.alfredsso\\source\\repos\\Biblotek\\Biblotek\\Biblotek\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

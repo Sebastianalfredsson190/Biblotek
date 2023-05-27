@@ -33,31 +33,11 @@
     "id": "4",
     "borrowing": [],
     "reserved": [],
-    "admin": false,
+    "admin": true,
     "username": "adrian",
     "password": "hej",
     "number": "07222",
     "mail": "adriancool@gmail.com"
-  },
-  {
-    "id": "5",
-    "borrowing": [],
-    "reserved": [],
-    "admin": false,
-    "username": "9876",
-    "password": "987",
-    "number": "082222",
-    "mail": "@gmail.com"
-  },
-  {
-    "id": "5",
-    "borrowing": [],
-    "reserved": [],
-    "admin": false,
-    "username": "6789",
-    "password": "789",
-    "number": "777777777",
-    "mail": "7777777"
   },
   {
     "id": "6",
@@ -113,9 +93,9 @@
     "id": "11",
     "borrowing": [],
     "reserved": [],
-    "admin": false,
+    "admin": true,
     "username": "hej",
-    "password": "hej",
+    "password": "hej123",
     "number": "22222",
     "mail": "hej"
   }
